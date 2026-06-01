@@ -7,3 +7,6 @@ Earlier to start server in fastApi we had something like
     "uvicorn main:app --reload" command
     
     but now we can use : "fastapi dev" command to run server it will give links for documentation and server
+
+In postgress all execute statements are staged changes, if u want it to reflect in main databse we need to commit it
+    conn.commit()
